@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAP</title>
+
+    <!-- Axentix CSS minified version -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/axentix@2.2.1/dist/axentix.min.css">
+    <!-- Adobe Fonts CSS -->
+    <link rel="stylesheet" href="https://use.typekit.net/nzu6rpz.css">
+</head>
+<body>
+
+    <header class="grey px-4 py-2 d-flex vcenter">
+        <a href="">
+            <img class="left" src="https://amapmontrouge.org/wp-content/uploads/logo-amap-idf.png" alt="logo" style="max-width: 5rem;">
+        </a>
+        <nav class="ml-auto">
+            <a href="/index.html" class="mx-3">Accueil</a>
+            <a href="/about.html" class="mx-3">A propos des AMAP</a>
+            <a href="/find.html" class="mx-3">Trouver une AMAP</a>
+            <a href="/create.html" class="mx-3">Créer une AMAP</a>
+            <ion-icon name="search-outline" size="small" class="cursor-pointer ml-5"></ion-icon>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <h1 class="titleFont ml-5 pl-5 mt-5">Trouver une AMAP</h1>
+
+        <div id="findAMAP" class="grey light-3 py-3 px-5 mt-5">
+            <div class="container mt-5">
+                <form class="form-material grix xs3">
+                    <div class="d-flex fx-center vcenter">
+                        <button class=" bd-0 px-3 py-2 rounded-2 cursor-pointer black">Utiliser ma localisation <ion-icon class="ml-2" size="small" name="location-sharp"></ion-icon></button>
+                    </div>
+                    <div class="d-flex fx-center vcenter">
+                        <span class="">OU</span>
+                    </div>
+                    <div class="form-field m-0 p-0 d-flex fx-center vcenter">
+                        <input class="grey bd-0 px-3 py-2 rounded-2 text-white" type="text" name="city" placeholder="Entrez une ville">
+                    </div>
+                </form>
+            </div>
+
+            <div class="separator grey mx-auto my-5" style="height: 1px; width: 50%"></div>
+
+            <div class="container d-flex fx-col vcenter mb-4">
+                <p>Vous ne trouvez pas d'AMAP près de chez vous ? Participez à sa création !</p>
+                <a href="/create.html" class="bd-solid black bd-1 rounded-2 px-3 py-2 cursor-pointer">A propos des AMAP</a>
+            </div>
+        </div>
+
+        <div class="container p-5">
+            <img class="responsive-media" src="/Map.png" alt="Carte AMAP">
+        </div>
+    </main>
+
+
+
+    <footer class="footer grey light-3">
+        <div class="container grix xs3 gutter-xs4">
+            <img src="https://amapmontrouge.org/wp-content/uploads/logo-amap-idf.png" alt="" style="max-width: 100%;">
+
+            <p class="text-center my-auto">Les AMAP sont destinées à favoriser l'agriculture paysanne et biologique qui a du mal à subsister face à l'agro-industrie. <br>
+            Le principe est de créer un lien direct entre paysans et consommateurs, qui s'engagent à acheter la production de celui-ci à un prix équitable et en payant par avance.</p>
+
+            <nav class="d-flex fx-col fx-center text-right">
+                <a href="/index.html">Accueil</a>
+                <a class="mt-3" href="/about.html">A propos des AMAP</a>
+                <a class="mt-3" href="/find.html">Trouver une AMAP</a>
+                <a class="mt-3" href="/create.html">Créer une AMAP</a>
+                <a class="mt-3" href="#">Liens utiles</a>
+                <a class="mt-3" href="#">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Axentix JS minified version -->
+    <script src="https://cdn.jsdelivr.net/npm/axentix@2.2.1/dist/axentix.min.js"></script>
+    <!-- IonIcons JS -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <style>
+        .titleFont {
+            font-family: "parppim", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+    </style>
+</body>
+</html>
